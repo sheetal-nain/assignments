@@ -1,44 +1,40 @@
-#  Jenkins Job
-With the help of jenkins job , we can pull the source code from version control, create it build, run tests, verify the status of builds and deploy, etc. Types of Jenkins Jobs are Freestyle Project, Maven Project, Pipeline, Multi-configuration Project, and GitHub Organization.
+# An AWS Load Balancer is a service that automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses. This helps ensure that no single instance bears too much load, which can lead to performance degradation or downtime.
+
+An Auto Scaling Group (ASG) is a feature of AWS that automatically adjusts the number of EC2 instances in response to changing demand. It helps maintain application availability and allows you to scale your EC2 capacity up or down automatically according to conditions you define.
 
 
-## 1. Part-1
+## 1. Infra diagram.
 `
-![assignment_1](pictures/job-1.1.png)
-![assignment_1](pictures/job1.2.png)
+![assignment_1](pictures/aws_infra_1-Page-1.drawio.png)
 
 
+## 2. The VPC resource map of the infra created.
 
-## 2. Mail-notification for job-1.
-
-![assignment_1](pictures/job-1-mail.png)
-
-
-## 3. Slack notification for job-1.
-
-![assignment_1](pictures/slack-notifications.png)
+![assignment_1](pictures/aws-vpc-resource.png)
 
 
-## 4. Part-2
+## 3. Target group created for the infra.
 
-![assignment_1](pictures/job-2..png)
-![assignment_1](pictures/job-2.1.png)
-![assignment_1](pictures/job-2-parameter.png)
+![assignment_1](pictures/aws-tg.png)
 
 
-## 5. Mail-notification for job-2.
-
-![assignment_1](pictures/job-2.1-mail.png)
+## 4. Load balancer created for the infra.
 
 
-## 6. Final result.
-
-![assignment_1](pictures/j-result.png)
+![assignment_1](pictures/aws-lb.png)
 
 
+## 5. Auto-scaling group created for the infra.
 
+![assignment_1](pictures/aws-asg.png)
 
+## 6. Deploying the application on tomcat.
 
+![assignment_1](pictures/aws-tomcat.png)
+
+## 7. Final result of the Spring3hibernate app deployment.
+
+![assignment_1](pictures/aws-result.png)
 
 
 
